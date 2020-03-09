@@ -14,8 +14,8 @@ public interface StudentChooseeInfo {
     @Select("select * from studentchooseinfo")
     List<StudentChooseInfo> getstdenChooseInfos();
 
-    @Select("select * from studentchooseinfo where id = #{id}")
-    StudentChooseInfo getOneStudentChooseInfo(int id);
+//    @Select("select * from studentchooseinfo where id = #{id}")
+//    StudentChooseInfo getOneStudentChooseInfo(int id);
 
 //    @Select("select * from studentchooseinfo where stuId = #{id}")
 //    StudentChooseInfo getOnStudentChooseInfoByStuId(int id);
