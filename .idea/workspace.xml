@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9ef0a615-c92c-4c53-93bc-50007b119b1e" name="Default Changelist" comment="" />
+    <list default="true" id="9ef0a615-c92c-4c53-93bc-50007b119b1e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cdes/choose/dao/StudentChooseeInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cdes/choose/dao/StudentChooseeInfo.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -108,8 +110,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/cdes/choose/dao/StudentChooseeInfo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+            <state relative-caret-position="350">
+              <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="20" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -179,6 +181,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -212,7 +217,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/cdes/choose/controller/TestVarStatic.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdes/choose/model/StudentChooseInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdes/choose/model/SendHistory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cdes/choose/dao/StudentChooseeInfo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdes/choose/dao/SendHistory.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdes/choose/util/ResultUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdes/choose/Application.java" />
@@ -220,6 +224,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdes/choose/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/cdes/choose/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/cdes/choose/dao/StudentChooseeInfo.java" />
       </list>
     </option>
   </component>
@@ -248,6 +253,7 @@
     <option name="width" value="1725" />
     <option name="height" value="805" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -343,7 +349,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583416254738" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1583757069786" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -449,12 +455,12 @@
       <workItem from="1583223546462" duration="1615000" />
       <workItem from="1583298902265" duration="593000" />
       <workItem from="1583405347304" duration="1429000" />
-      <workItem from="1583756514850" duration="287000" />
+      <workItem from="1583756514850" duration="551000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="146699000" />
+    <option name="totallyTimeSpent" value="146963000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -466,7 +472,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18017058" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -790,8 +797,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/cdes/choose/dao/StudentChooseeInfo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+        <state relative-caret-position="350">
+          <caret line="19" column="68" lean-forward="true" selection-start-line="19" selection-start-column="68" selection-end-line="20" selection-end-column="62" />
         </state>
       </provider>
     </entry>
