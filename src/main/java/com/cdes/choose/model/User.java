@@ -3,11 +3,12 @@ package com.cdes.choose.model;
 import lombok.Data;
 
 import javax.persistence.Table;
+import java.io.Serializable;
 
 
 @Data
 @Table(name = "user")
-public class User {
+public class User implements Serializable {
     private int userId;
     private String password;
     private String userName;

@@ -14,6 +14,6 @@ import java.util.ArrayList;
 public class Application {
         public static void main(String[] args){
                 SpringApplication.run(Application.class);
-                System.out.print("程序运行种。。。。。。");
+                System.out.print("程序运行中。。。。。。");
         }
 }

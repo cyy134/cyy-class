@@ -1,5 +1,8 @@
 package com.cdes.choose.controller;
 
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONArray;
+import com.alibaba.fastjson.JSONObject;
 import com.cdes.choose.model.Course;
 import com.cdes.choose.model.User;
 import com.cdes.choose.service.impl.CourseServiceImpl;
@@ -68,13 +71,44 @@ public class StudentController {
         System.out.print("来说获取所有的符合当前登陆者需要的课程信息。。。");
         try {
             List<Course> courses = courseService.getCourseByGrade(grade);
+            JSONArray array= JSONArray.parseArray(JSON.toJSONString(courses));
+            for(int i=0; i<array.size(); i++){
+                JSONObject item = array.getJSONObject(i);
+                item.remove("term");
+            }
+//            JSONArray array1 = toJSONArray(courses);验证此方法的正确性
             if(courses.size() == 0){
                 return ResultUtil.error(-1,"没有符合条件的课程");
             }else
-                return ResultUtil.success2(200,"得到所有符合登陆者年级的课程信息",courses);
+                return ResultUtil.success2(200,"得到所有符合登陆者年级的课程信息",array);
         }catch (Exception e){
             e.printStackTrace();
             return ResultUtil.error(-200,"出现未知异常");
         }
     }
+
+    /**
+     * 对象转JSONObject
+     *
+     * @param object
+     * @return
+     */
+    public JSONObject objectToJSONObject(Object object) {
+        String jsonStr = JSONObject.toJSONString(object);
+        JSONObject jsonObject = JSONObject.parseObject(jsonStr);
+        return jsonObject;
+    }
+
+    /**
+     * list转JSONArray
+     * @param list
+     * @return
+     */
+    public JSONArray toJSONArray(List list){
+        JSONArray array= JSONArray.parseArray(JSON.toJSONString(list));
+        return array;
+    }
+
 }
+
+
